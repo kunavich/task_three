@@ -35,13 +35,19 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="by.kunavich.task3.data" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Lord\IdeaProjects\task_three\src\main\java" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.CalculatorTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="by.kunavich.task3.Main" />
       <module name="task_three" />
@@ -55,8 +61,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="task_three" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.kunavich.task3.logic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="by.kunavich.task3.logic" />
+      <option name="MAIN_CLASS_NAME" value="by.kunavich.task3.logic.CalculatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CalculatorTest" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -73,9 +95,41 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="0" y="0" key="#Project_Structure" timestamp="1601404811781">
+      <screen x="0" y="0" width="1024" height="738" />
+    </state>
+    <state x="0" y="0" key="#Project_Structure/0.0.1024.738@0.0.1024.738" timestamp="1601404811781" />
+    <state x="289" y="236" width="446" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1601403752374">
+      <screen x="0" y="0" width="1024" height="738" />
+    </state>
+    <state x="289" y="236" width="446" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1024.738@0.0.1024.738" timestamp="1601403752374" />
+    <state width="980" height="176" key="GridCell.Tab.0.bottom" timestamp="1601405150696">
+      <screen x="0" y="0" width="1024" height="738" />
+    </state>
+    <state width="980" height="176" key="GridCell.Tab.0.bottom/0.0.1024.738@0.0.1024.738" timestamp="1601405150696" />
+    <state width="980" height="176" key="GridCell.Tab.0.center" timestamp="1601405150695">
+      <screen x="0" y="0" width="1024" height="738" />
+    </state>
+    <state width="980" height="176" key="GridCell.Tab.0.center/0.0.1024.738@0.0.1024.738" timestamp="1601405150695" />
+    <state width="980" height="176" key="GridCell.Tab.0.left" timestamp="1601405150681">
+      <screen x="0" y="0" width="1024" height="738" />
+    </state>
+    <state width="980" height="176" key="GridCell.Tab.0.left/0.0.1024.738@0.0.1024.738" timestamp="1601405150681" />
+    <state width="980" height="176" key="GridCell.Tab.0.right" timestamp="1601405150695">
+      <screen x="0" y="0" width="1024" height="738" />
+    </state>
+    <state width="980" height="176" key="GridCell.Tab.0.right/0.0.1024.738@0.0.1024.738" timestamp="1601405150695" />
+    <state x="0" y="0" width="587" height="738" key="find.popup" timestamp="1601405482959">
+      <screen x="0" y="0" width="1024" height="738" />
+    </state>
+    <state x="0" y="0" width="587" height="738" key="find.popup/0.0.1024.738@0.0.1024.738" timestamp="1601405482959" />
     <state x="168" y="159" key="run.anything.popup" timestamp="1601107497843">
       <screen x="0" y="0" width="1024" height="738" />
     </state>
     <state x="168" y="159" key="run.anything.popup/0.0.1024.738@0.0.1024.738" timestamp="1601107497843" />
+    <state x="175" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1601405565976">
+      <screen x="0" y="0" width="1024" height="738" />
+    </state>
+    <state x="175" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1024.738@0.0.1024.738" timestamp="1601405565976" />
   </component>
 </project>

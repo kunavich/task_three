@@ -8,6 +8,7 @@ package by.kunavich.task3;
 import by.kunavich.task3.data.*;
 import by.kunavich.task3.logic.Calculator;
 import by.kunavich.task3.model.Airplane;
+import by.kunavich.task3.model.AirplaneCampony;
 import by.kunavich.task3.view.ConcoleResultPrinter;
 import by.kunavich.task3.view.ResultPrinter;
 import by.kunavich.task3.view.ResultPrinter;
@@ -21,12 +22,12 @@ public class Main {
      public static void main(String[] args) throws Exception {
 
          // get
-         AirplaneCreator airplaneCreator = new AirplaneCreator();
-         Airplane airplane =airplaneCreator.createAirplane();
+         AirplaneCamponyCreator airplaneCamponyCreator = new AirplaneCamponyCreator();
+         AirplaneCampony airplaneCampony =airplaneCamponyCreator.createAirplaneCompany("FILE");
 
          //count
          Calculator calculator = new Calculator();
-         int amount= calculator.calculatePassgers(airplane);
+         int amount= calculator.calculatePassgers(airplaneCampony,0);
 
          //out
          ResultPrinter printer= new ConcoleResultPrinter();

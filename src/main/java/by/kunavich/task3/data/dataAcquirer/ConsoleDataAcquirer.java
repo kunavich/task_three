@@ -3,7 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package by.kunavich.task3.data;
+package by.kunavich.task3.data.dataAcquirer;
+
+import by.kunavich.task3.data.DataException;
 
 import java.util.Scanner;
 
@@ -14,7 +16,7 @@ import java.util.Scanner;
 public class ConsoleDataAcquirer implements DataAcquirer{
 
     @Override
-    public String getName() throws Exception {
+    public String getName() throws DataException {
         System.out.println("Enter name of passanger");
         try (Scanner scanner = new Scanner(System.in)){
             String input =scanner.next();

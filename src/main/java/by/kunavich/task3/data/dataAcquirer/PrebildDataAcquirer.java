@@ -1,4 +1,4 @@
-package by.kunavich.task3.data;
+package by.kunavich.task3.data.dataAcquirer;
 
 import java.util.ArrayList;
 import java.util.List;

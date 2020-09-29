@@ -1,4 +1,4 @@
-package by.kunavich.task3.data;
+package by.kunavich.task3.data.dataAcquirer;
 
 public class DataAcquirerFactory {
 
@@ -8,6 +8,8 @@ public class DataAcquirerFactory {
                 return new ConsoleDataAcquirer();
             case "PREBILD":
                 return  new PrebildDataAcquirer();
+            case "FILE":
+                return  new FileDataAcquirer();
 
             default:
                 throw new RuntimeException("wrong type : "+type);

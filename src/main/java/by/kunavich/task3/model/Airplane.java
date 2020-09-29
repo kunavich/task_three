@@ -6,13 +6,11 @@ import java.util.List;
 public class Airplane {
     List<Passanger> passangerList;
 
-    public Airplane()
-    {
+    public Airplane()    {
         passangerList =new ArrayList<Passanger>();
 
     }
-    public void addPassenger(Passanger passanger)
-    {
+    public void addPassenger(Passanger passanger)    {
         passangerList.add(passanger);
 
     }
@@ -20,4 +18,5 @@ public class Airplane {
     public List<Passanger> getPassangerList() {
         return passangerList;
     }
+
 }

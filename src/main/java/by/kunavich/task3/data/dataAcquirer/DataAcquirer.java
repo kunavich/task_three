@@ -3,15 +3,16 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package by.kunavich.task3.data;
+package by.kunavich.task3.data.dataAcquirer;
 
 
+import by.kunavich.task3.data.DataException;
 
 /**
  *
  * @author Lord
  */
 public interface DataAcquirer {
-    String getName() throws Exception;
+    String getName() throws DataException;
     
 }

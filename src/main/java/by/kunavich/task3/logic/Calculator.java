@@ -7,6 +7,7 @@ package by.kunavich.task3.logic;
 
 
 import by.kunavich.task3.model.Airplane;
+import by.kunavich.task3.model.AirplaneCampony;
 
 /**
  *
@@ -14,9 +15,9 @@ import by.kunavich.task3.model.Airplane;
  */
 public class Calculator {
 
-    public int calculatePassgers(Airplane airplane)  {
+    public int calculatePassgers(AirplaneCampony airplaneCampony, int Index)  {
 
-        return airplane.getPassangerList().size();
+        return airplaneCampony.getAirplaneList().get(Index).getPassangerList().size();
     }
     
 }
